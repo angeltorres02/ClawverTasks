@@ -3,6 +3,11 @@
 
 @theme {
   --font-nunito: "Nunito Variable", sans-serif;
+  --color-primary: #819a91;
+  --color-secondary: #a7c1a8;
+  --color-tertiary: #d1d8be;
+  --color-extra: #eeefe0;
+  --color-text: #333333;
 }
 
 @layer base {
