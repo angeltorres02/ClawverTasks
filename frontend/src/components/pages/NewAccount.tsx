@@ -23,7 +23,7 @@ export default function NewAccount() {
         <div></div>
       </div>
       <form
-        className="flex flex-col justify-center items-center w-full mt-10 gap-12"
+        className="flex flex-col justify-center items-center w-full gap-12"
         onSubmit={onSubmit}
       >
         <div className="flex flex-col gap-2">
@@ -33,7 +33,7 @@ export default function NewAccount() {
             type="email"
             name="email"
             id="newAccountEmail"
-            className="border-1 border-primary rounded-lg text-xl p-1 text-center font-semibold focus:outline-none w-120"
+            className="border-1 border-primary rounded-lg text-xl p-1 font-semibold focus:outline-none w-120 px-4 py-2 "
           />
         </div>
         <div className="flex flex-col w-120 gap-2">
@@ -43,7 +43,7 @@ export default function NewAccount() {
             type="text"
             name="display-name"
             id="newAccountName"
-            className="border-1 border-primary rounded-lg text-xl p-1 text-center font-semibold focus:outline-none w-120"
+            className="border-1 border-primary rounded-lg text-xl p-1 font-semibold focus:outline-none w-120 px-4 py-2 "
           />
         </div>
         <div className="flex flex-col gap-2">
@@ -53,7 +53,7 @@ export default function NewAccount() {
             type="text"
             name="username"
             id="newAccountUsername"
-            className="border-1 border-primary rounded-lg text-xl p-1 text-center font-semibold focus:outline-none w-120"
+            className="border-1 border-primary rounded-lg text-xl p-1 font-semibold focus:outline-none w-120 px-4 py-2"
           />
         </div>
         <div className="flex flex-col gap-2">
@@ -63,7 +63,7 @@ export default function NewAccount() {
             type="password"
             name="password"
             id="newAccountPassword"
-            className="border-1 border-primary rounded-lg text-xl p-1 text-center font-semibold focus:outline-none w-120"
+            className="border-1 border-primary rounded-lg text-xl p-1 font-semibold focus:outline-none w-120 px-4 py-2"
           />
         </div>
 
