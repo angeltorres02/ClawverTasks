@@ -1,9 +1,9 @@
-import { LoginForm, LoginHero, Logo } from "../login";
+import { LoginForm, LoginHero, LogoTitle } from "../login";
 
 export default function Login() {
   return (
     <section className="font-nunito">
-      <Logo />
+      <LogoTitle />
       <LoginHero />
       <LoginForm />
     </section>
